@@ -20,28 +20,62 @@ vertical-align: baseline;
 }
 /*top bar customization, main colors in project: FBFAF9, 7B8184, 923714, 676164, 1E1D2E*/
 body{
-    background-color: rgb(167, 173, 177);
+    background-color: rgb(85, 85, 85);
     font-family: 'Noto Serif', serif;
+    color:rgb(172, 172, 172);
 }
-header{
-    background-color:#923714;
-    color:#FBFAF9;
-    height:10%;
-    font-family: Courier;
+/* header{
     display:flex;
     align-items: center;
-    padding-left:12%;
-    font-size: 20px;
+} */
+.titleTop{
+    background-color:#252525;
+    color:#FBFAF9;
+    height:5%;
+    font-family: Courier;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    padding-top:2%;
 }
 .titlePortionOne:hover{
-    color:#1E1D2E;
+    color:rgb(88, 83, 158);
 }
 .titlePortionTwo{
     display:flex;
     justify-content: flex-end;
-    padding-right:12%;
-    padding-bottom: 1%;
-    background-color:#923714;
+    align-items: center;
+    padding-right:8%;
+    background-color:#252525;
     font-family: 'Bree Serif', serif;
     font-size:21px;
+    word-spacing: 17px;
+}
+.titlePortionTwo nav a{
+    background-color: rgb(50, 49, 82);
+    color: #FBFAF9;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: flex-end;
+}
+.titlePortionTwo nav a:hover{
+    background-color:rgb(33, 31, 53)
+}
+.nameCard{
+    display:flex;
+    justify-content: center;
+    padding:7%;
+    align-items:center;
+    font-size:1.3rem;
+}
+.nameTitle{
+    font-size:5rem;
+    font-weight: bold;
+}
+.nameTitle:hover{
+    font-size:5rem;
+    font-weight: bold;
 }
